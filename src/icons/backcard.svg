@@ -1,0 +1,16 @@
+<svg  viewBox="0 0 1013 993" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="ArtBoard1" transform="matrix(1,0,0,1,-1113,-566.929)">
+        <rect x="1113" y="566.929" width="1012.98" height="992.126" style="fill:none;"/>
+        <g transform="matrix(1.02564,-1.2232e-18,1.2232e-18,1.02564,-281.11,-156.922)">
+            <path d="M1854.33,732.283L2253.25,962.598L2253.25,1423.23L1854.33,1653.54L1455.41,1423.23L1455.41,962.598L1854.33,732.283Z" style="fill:white;"/>
+            <clipPath id="_clip1">
+                <path d="M1854.33,732.283L2253.25,962.598L2253.25,1423.23L1854.33,1653.54L1455.41,1423.23L1455.41,962.598L1854.33,732.283Z"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(0.844918,-0.486558,0.486558,0.844918,1094.33,380.839)">
+                    <path d="M732.283,1110.24L259.843,1110.24L24.079,1520.17L496.519,1519.64L732.283,1110.24Z" style="fill:rgb(183,218,220);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

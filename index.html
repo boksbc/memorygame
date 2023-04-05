@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory</title>
+    <link rel="stylesheet" href="/src/assets/app.css">
+    <link rel="icon" type="image/x-icon" href="/src/images/favicon.ico">
+</head>
+<body>
+<div class="container disNon">
+    <div class="headline">
+        <h1>MemoryGame</h1>
+        <div class="music_buttons">
+            <div id="play" class="icons">
+                <svg width="50px" height="50px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <polygon fill-rule="evenodd" points="298.667 149.333 0 298.667 0 0"
+                             transform="translate(128 106.667)"/>
+                </svg>
+            </div>
+            <div id="stop" class="icons">
+                <svg width="50px" height="50px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="256" height="256" fill-rule="evenodd" transform="translate(128 128)"/>
+                </svg>
+            </div>
+            <div id="mute" class="icons">
+                <svg width="50px" height="50px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+
+                    <path d="M0 0h48v48H0z" fill="none"/>
+                    <g id="Shopicon">
+                        <polygon points="7.729,43.099 18.178,32.65 29.824,41.971 29.824,21.004 42.558,8.271 39.729,5.442 29.824,15.348 29.824,5.646
+		17.127,15.81 9.824,15.81 9.824,31.81 13.362,31.81 4.901,40.271 	"/>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="headline_spans">
+        <div class="hits headline_span">Züge: <span class="hit"></span></div>
+        <div class="timer headline_span">Zeit: <span class="time"></span></div>
+    </div>
+    <div class="row" id="cardRows"></div>
+</div>
+
+<div id="popup" class="popup_container">
+    <div class="popup_wrapper">
+        <div class="popup_headline"><h2>Let's Play Memory</h2></div>
+        <div class="level_headline">
+            <h3>Schwierigkeit:</h3>
+        </div>
+        <div class="game_level">
+            <div class="level_steps">
+                <span class="level_step easy">Leicht</span>
+                <span class="level_step medium">Mittel</span>
+                <span class="level_step hard">Schwer</span>
+            </div>
+            <input type="range" min="12" max="24" value="12" class="slider" id="range_level" step="6">
+            <span class="info_text">Wähle deinen Schwierigkeitsgrad.</span>
+        </div>
+        <div class="level_headline">
+            <h3>Hilfe</h3>
+        </div>
+        <div class="show_deck">
+            <input type="checkbox" name="show_deck" id="show_deck">
+            <label for="show_deck">Alle Karten zeigen</label>
+            <span class="info_text">Alle Karten werden vor Spielbeginn für 3 Sekunden gezeigt.</span>
+        </div>
+        <div class="start_submit">
+            <button class="start">Spiel starten</button>
+        </div>
+    </div>
+</div>
+
+<script src="/src/lib/jquery.js"></script>
+<script src="/src/assets/app.js"></script>
+</body>
+</html>
